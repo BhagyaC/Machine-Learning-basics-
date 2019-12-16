@@ -1,0 +1,21 @@
+## Linear algebra is the mathematics of data
+- Linear algebra is undeniably a pillar of machine learning
+- Since linear algebra is a huge field to study a breadth first approach is appropriate in the case of applied machine learning
+- Read the existing algorithms
+- Implement new algorithms described in the paper
+- Concisely describe your own methods
+- Linear algebra arithmetic
+- eg) matrix multiplication and tensor multiplication
+### Some intro to tensors
+- Tensors helps in the geometry
+- Complex geometry - general relativity (space, big bang theory)
+- That is like space - time is curved and the universe is expanding
+- Einstein field equation are filled with tensors
+- Tensor multiplication combines the two geometrical spaces to one complex one
+- Tensors are multidimensional arrays
+- Tensors has a geometrical meaning in the definision
+- So tensors are the object that is invarient under a change of cordinates and it has components that changes in a special predictable way under change of cordinates
+- Or Tensors are collection of vectors and covectors collected together using the tensor product
+- A covector is a row vector but in a cordination system where the definision is given like one unit length and perpendicular to each other then the transformed column vector is a row vector but in another cases it is not
+- So in a unified way the covectors or the row vectors are defined as a fuction of the dot product 
+- 
