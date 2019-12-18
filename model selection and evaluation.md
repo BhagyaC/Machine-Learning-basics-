@@ -1,0 +1,28 @@
+## Model evaluation
+- It is the last step of machine learning process here we will evaluate that the model fits well on the data or not
+- split the data to the train and test
+- for regression we have mean squared error and mean absolute error
+- classification - precision, recall, f1 score, and accuracy, ROc or PR curves
+- We assume that the distribution for the train and test data is same
+- There are three scenarios for the model
+- 1.underfit (does not consider the data at all   ), 2. just right, 3. overfit
+- model complexity defined based on the parameters used for the model
+- we have to find defined number of parameters which will give a good result
+-  While we plotting the loss/ validation against the model complexity it will get the curve where the minimal value get it is the right fit and the left side is the underfitting and the right is the over fitting
+- Feature crossing is the way of selecting the more number of complex parameters and it is a solution for underfitting
+- Overfitting can be avoided by getting more number of data
+- Regularization is the method of reducing the model complexity - j(w,b)+ λ * model complexity (it is the penalty)
+- there are many way to calculate the model complexity
+- L2 regularization which add the second norm of the parameters
+- L1 regularization add the first norm or the absolute value of the parameters
+- we can reduce λ to reduce the underfitting while increase λ to overcome the overfitting
+### Evaluation measures
+- Confusion matrix
+- accuracy
+- for imbalaced dataset precison , recall  and f1 score
+- for any machine learing algorithm we can ask few questions
+- 1. what is the training data
+- 2. What is the mathematical function in the model
+- 3. Loss function used
+- 4. How the model get trained
+- 5. How the model is evaluated
