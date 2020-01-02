@@ -1,0 +1,24 @@
+## Operation on Tensor
+- linear combination of the input and corresponding weight (dot)
+- Adding bias to the value
+- then an non linear activation to the result
+- For each neurons we have m weights
+- The activation functions relu and sigmoid are performs as elementarwise operation
+- If it is vector operation we can exploit the property called parellelisation for the the better performance
+- If the two vectors are not of compactible size then we have to use a property called broadcasting
+- Broadcasting - It is employed to make the two tensors envolved in an operation compactable
+- Let's say we have to add two tensors who's shape are different
+- 1. Axes are added to the smaller to much the ndim of the larger tensor
+- These axes are called broadcast axes
+- The smaller tensor is repeated alongside these axes to match the full shape of the larger tensor
+- eg = x1 (32,10) , x2 (10)
+- x2 = np.expand_dims(x2,axis = 0)
+- x2 = np.repeat(x2,32,axis = 0)
+### Tensor Dot
+- reshaping is to reshape the tensor row and column
+- Momentum based strategies are often found in the deep learning techniques - it helps to find the get out of the local minima
+- There are methods like to early stopping which will help to avoid overfitting
+- There is also another mechanism called dropout which is also a regularisation mechanism used in deep learning techniques
+- In drop we will not consider a defined part of the nodes from the neural network
+- We the overfitting happens we either try to find more examples or apply any kind of the regularization techniques
+- Underfitting can be avoided simply adding more layers to the network
