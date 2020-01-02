@@ -1,0 +1,12 @@
+# Slicing the tensor 
+- It is the selection of specific layers of the tensor is know as slicing the tensors
+- : will give the entire axis
+- i:j will we can slice the tensor from i to j-1
+- [i:j,:,:] will give the same result
+- 14*14 batch of the data [:,14:,14:]
+-  First 128 batch is selected as [:128]
+- nth batch = 
+- 2D - (sample, features) - text documents
+- 3D - (sample, timesteps, features) - stock prices
+- 4D - (sample , channel ,height ,width ) - mnist
+- 5D - (sample ,frames, channel ,height ,width ) - video
